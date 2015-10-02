@@ -43,4 +43,9 @@ What is the result of merging two branches together? Why do we represent it in t
  as well as now common 'future'
  - often smaller experimental changes are merged into the main/master branch when they work and prove useful
 
- 
+------------------------------------------------
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ - automatic merging is faster and safe if branches made changes to completely unrelated matters
+ - automatic merging may produce redundand code
+ - manual merging allows you to control the exact changes, but it's also tedious
