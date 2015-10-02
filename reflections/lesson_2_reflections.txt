@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- Initalizing a repository means that all the necessary meta information files are created by Git
+- Without these meta data git wouldn't know what revision you're at, how to compare changes, which files to exclude, etc.
