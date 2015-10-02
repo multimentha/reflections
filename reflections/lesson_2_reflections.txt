@@ -11,3 +11,10 @@ How is the staging area different from the working directory and the repository?
  - The repository has fixed snapshots of all relevant files.
  - Having a staging area means you can commit only those files that you really wish to update. So you can play/mess around with everything and then only stage the files that merrit a change. It allows for atomic (?) commits!
  
+ 
+------------------------------------------------
+How can you use the staging area to make sure you have one commit per logical change?
+
+ - Add only those files that concern the logical change to the staging area, then commit with a descriptive message
+ - Use git diff (without arguments) to see all changes that have not been staged yet
+ - Use git diff --staged to compare staging area to HEAD revision
