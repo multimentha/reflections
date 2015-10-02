@@ -34,3 +34,13 @@ How do the diagrams help you visualize the branch structure?
  - see where HEAD currently is
  - track history of new branches (when did they get added?)
  - see development of branches over time
+
+------------------------------------------------
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+ - the result will contain the latest files of both branches
+ - the graphical representation in a diagram shows that both branches have common origin from which they deviated
+ as well as now common 'future'
+ - often smaller experimental changes are merged into the main/master branch when they work and prove useful
+
+ 
