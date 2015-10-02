@@ -1,4 +1,13 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-- Initalizing a repository means that all the necessary meta information files are created by Git
-- Without these meta data git wouldn't know what revision you're at, how to compare changes, which files to exclude, etc.
+ - Initalizing a repository means that all the necessary meta information files are created by Git
+ - Without these meta data git wouldn't know what revision you're at, how to compare changes, which files to exclude, etc.
+------------------------------------------------
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+ - The staging area let's you gather all the files that should be pushed to the next commit.
+ - Your working directory contains all the latest files, including changes you made yourself.
+ - The repository has fixed snapshots of all relevant files.
+ - Having a staging area means you can commit only those files that you really wish to update. So you can play/mess around with everything and then only stage the files that merrit a change. It allows for atomic (?) commits!
+ 
