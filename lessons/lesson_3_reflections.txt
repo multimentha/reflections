@@ -23,3 +23,8 @@ Describe the differences between forks, clones, and branches. When would you use
  - can work offline
  - conflicting changes can be merged and then pushed to remote
 
+------------------------------------------------
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+ - You would have to swap files manually or post them on a web server
+ - It's easier because you need to know less commands and concepts …
+ - but it introduces many pitfalls: accidentally overwriting someone's changes, incompatibility issues, introducing experimental changes becomes hard
