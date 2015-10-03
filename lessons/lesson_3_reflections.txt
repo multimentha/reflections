@@ -18,3 +18,8 @@ Describe the differences between forks, clones, and branches. When would you use
  - a branch is one diverging serious of commits within a project
  - Use branches for introducing new features, testing stuff. Use clones for remote access, local modifications and backups. Use forks if you want to improve/change a project while leaving the original intact or if you don't have access rights to push commits.
  
+------------------------------------------------
+ What is the benefit of having a copy of the last known state of the remote stored locally?
+ - can work offline
+ - conflicting changes can be merged and then pushed to remote
+
